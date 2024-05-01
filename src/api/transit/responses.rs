@@ -12,7 +12,7 @@ pub struct ReadKeyResponse {
     pub derived: bool,
     pub exportable: bool,
     pub allow_plaintext_backup: bool,
-    pub keys: HashMap<u64,HashMap<String,String> >,
+    pub keys: HashMap<String,HashMap<String,String> >,
     pub min_decryption_version: u64,
     pub min_encryption_version: u64,
     pub name: String,
